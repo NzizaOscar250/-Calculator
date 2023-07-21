@@ -4,17 +4,19 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
+    box-sizing: border-box;
   }
   
   .calculator {
-    width: 200px;
+    width: 500px;
     border: 1px solid #ccc;
     padding: 10px;
     text-align: center;
+    background-color: rgb(11, 139, 198);
   }
   
   input {
-    width: 100%;
+  width: 450px;
     padding: 5px;
     margin-bottom: 10px;
   }
